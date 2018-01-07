@@ -14,6 +14,9 @@
 		73C292FC1FFEA58800A018EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73C292FA1FFEA58800A018EF /* LaunchScreen.storyboard */; };
 		73C293071FFEA58800A018EF /* TippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C293061FFEA58800A018EF /* TippyTests.swift */; };
 		73C293121FFEA58800A018EF /* TippyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C293111FFEA58800A018EF /* TippyUITests.swift */; };
+		73C2932A200189F200A018EF /* panton in Resources */ = {isa = PBXBuildFile; fileRef = 73C29329200189F200A018EF /* panton */; };
+		73C2932D20018A2300A018EF /* Panton-LightCaps.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73C2932B20018A2200A018EF /* Panton-LightCaps.otf */; };
+		73C2932E20018A2300A018EF /* Panton-LightitalicCaps.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73C2932C20018A2300A018EF /* Panton-LightitalicCaps.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		73C2930D1FFEA58800A018EF /* TippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73C293111FFEA58800A018EF /* TippyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippyUITests.swift; sourceTree = "<group>"; };
 		73C293131FFEA58800A018EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73C29329200189F200A018EF /* panton */ = {isa = PBXFileReference; lastKnownFileType = folder; path = panton; sourceTree = "<group>"; };
+		73C2932B20018A2200A018EF /* Panton-LightCaps.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Panton-LightCaps.otf"; sourceTree = "<group>"; };
+		73C2932C20018A2300A018EF /* Panton-LightitalicCaps.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Panton-LightitalicCaps.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,8 @@
 		73C292E51FFEA58500A018EF = {
 			isa = PBXGroup;
 			children = (
+				73C2932B20018A2200A018EF /* Panton-LightCaps.otf */,
+				73C2932C20018A2300A018EF /* Panton-LightitalicCaps.otf */,
 				73C292F01FFEA58500A018EF /* Tippy */,
 				73C293051FFEA58800A018EF /* TippyTests */,
 				73C293101FFEA58800A018EF /* TippyUITests */,
@@ -97,6 +105,7 @@
 		73C292F01FFEA58500A018EF /* Tippy */ = {
 			isa = PBXGroup;
 			children = (
+				73C29329200189F200A018EF /* panton */,
 				73C292F11FFEA58500A018EF /* AppDelegate.swift */,
 				73C292F31FFEA58700A018EF /* ViewController.swift */,
 				73C292F51FFEA58700A018EF /* Main.storyboard */,
@@ -234,7 +243,10 @@
 			files = (
 				73C292FC1FFEA58800A018EF /* LaunchScreen.storyboard in Resources */,
 				73C292F91FFEA58800A018EF /* Assets.xcassets in Resources */,
+				73C2932A200189F200A018EF /* panton in Resources */,
 				73C292F71FFEA58700A018EF /* Main.storyboard in Resources */,
+				73C2932D20018A2300A018EF /* Panton-LightCaps.otf in Resources */,
+				73C2932E20018A2300A018EF /* Panton-LightitalicCaps.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
